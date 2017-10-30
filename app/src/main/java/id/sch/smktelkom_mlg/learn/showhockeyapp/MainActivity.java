@@ -45,34 +45,34 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_main);
 
         house = new MarkerOptions()
-                .position(new LatLng(-6.886892, 111.654675))
-                .title("First Place")
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_location_on_black_24dp));
+                .position(new LatLng(-7.689707, 112.617807))
+                .title("Villa Duta Kasih")
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.location_on));
 
         quba = new MarkerOptions()
                 .position(new LatLng(-7.677471, 112.632378))
                 .title("Masjid Lumbang Rejo")
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_location_on_black_24dp));
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.location_on));
 
         pasar = new MarkerOptions()
                 .position(new LatLng(-7.681503, 112.641159))
                 .title("Pasar Prigen")
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_location_on_black_24dp));
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.location_on));
 
         kec = new MarkerOptions()
                 .position(new LatLng(-7.756905, 112.664645))
                 .title("Taman Safari Prigen")
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_location_on_black_24dp));
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.location_on));
 
         koramil = new MarkerOptions()
                 .position(new LatLng(-7.677995, 112.634329))
                 .title("MTs Negeri 3 Pasuruan")
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_location_on_black_24dp));
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.location_on));
 
         smp = new MarkerOptions()
                 .position(new LatLng(-7.700071, 112.624484))
                 .title("Air Terjun Kakek Bodo")
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_location_on_black_24dp));
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.location_on));
 
         MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
